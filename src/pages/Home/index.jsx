@@ -22,7 +22,9 @@ const handleGetUser = () => {
           </Input>
           <Button onClick={handleGetUser}>
             <img src={searchIcon} alt="imagem de uma lupa"/>
-            Buscar
+            <span>
+              Buscar
+            </span>
             </Button>
         </Box>
     </Container>
