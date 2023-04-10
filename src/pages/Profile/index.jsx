@@ -1,8 +1,9 @@
 import React from "react";
+import { ProfileInfos } from "../../components/ProfileInfos/index";
+import { RepositoryInfos } from "../../components/RepositoryInfos/index";
 import {
   Container
 } from "./styles";
-import { ProfileInfos } from "../../components/ProfileInfos/index"
 
 export function Profile() {
 
@@ -10,6 +11,7 @@ export function Profile() {
     <>
       <Container>
       <ProfileInfos/>
+      <RepositoryInfos/>
       </Container>
     </>
   );
