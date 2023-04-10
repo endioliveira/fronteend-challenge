@@ -23,7 +23,7 @@ export function RepositoryInfos() {
   const fetchUserRepos = async () => {
     await axios
       .get(
-        `https://api.github.com/users/${username}/repos?sort=stars&direction=desc&per_page=100`
+        `https://api.github.com/users/${username}/repos?sort=stars&direction=desc&per_page=30`
       )
       .then((response) => {
         const sortRepo = response.data.sort(
@@ -39,7 +39,7 @@ export function RepositoryInfos() {
 
   return (
     <>
-      <div>
+      <Container>
         {userRepos.map((repo) => (
           <BoxRepositories key={repo.id}>
             <TitleRepository>
@@ -65,7 +65,7 @@ export function RepositoryInfos() {
             </BoxRepositoryNumbersInfos>
           </BoxRepositories>
         ))}
-      </div>
+      </Container>
     </>
   );
 }

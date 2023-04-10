@@ -22,10 +22,13 @@ export const Box = styled.div`
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+  padding: 1.8rem;
+  width: 100%;
 `;
 
 export const Input = styled.input`
-  width: 35rem;
+  max-width: 35rem;
+  flex: 1;
   height: 3rem;
   border-radius: 0.5rem;
   font-size: 1rem;
@@ -53,5 +56,10 @@ export const Button = styled.button`
 
   img {
     width: 1rem;
+  }
+  @media (max-width: 1050px){
+    span{
+      display: none;
+    }
   }
 `;

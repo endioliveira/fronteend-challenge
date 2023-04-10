@@ -11,6 +11,8 @@ export const BoxProfile = styled.div`
   overflow-y: auto;
   padding-bottom: 2.5rem;
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
 
   ::-webkit-scrollbar {
     width: 8px;
@@ -24,21 +26,10 @@ export const BoxProfile = styled.div`
     background: #a8a8a8;
     border-radius: 30px;
   }
-
-  @media (max-width: 576px) {
-    /* Inserir estilos para dispositivos com largura de tela menor ou igual a 576 pixels aqui */
-  }
-
-  @media (min-width: 577px) and (max-width: 768px) {
-    /* Inserir estilos para dispositivos com largura de tela maior que 576 pixels e menor ou igual a 768 pixels aqui */
-  }
-
-  @media (min-width: 769px) and (max-width: 992px) {
-    /* Inserir estilos para dispositivos com largura de tela maior que 768 pixels e menor ou igual a 992 pixels aqui */
-  }
-
-  @media (min-width: 993px) {
-    /* Inserir estilos para dispositivos com largura de tela maior que 992 pixels aqui */
+  @media (max-width: 768px){
+    position: initial;
+    width: 100%;
+    height: max-content;
   }
 `;
 
@@ -57,23 +48,41 @@ export const BoxProfileImage = styled.div`
 export const ResumeProfile = styled.div`
   padding: 0.2rem 1.25rem 1.25rem 1.25rem;
   margin-top: 1rem;
+
+  @media (max-width: 768px){
+    padding: 0.2rem 1.5rem 1.25rem 1.5rem;
+  }
 `;
 
 export const Name = styled.h1`
   padding-bottom: 0.1rem;
   font-style: italic;
   font-weight: 400;
+
+  @media (max-width: 768px){
+    text-align: center;
+  }
 `;
 
 export const UserName = styled.h3`
   padding-bottom: 0.9rem;
   font-style: italic;
   font-weight: 300;
+
+  
+  @media (max-width: 768px){
+    text-align: center;
+  }
 `;
 
 export const AboutTheProfile = styled.p`
   color: #677386;
   font-size: 0.9rem;
+
+  
+  @media (max-width: 768px){
+    text-align: center;
+  }
 `;
 
 export const BoxNumberInfos = styled.div`
@@ -95,6 +104,18 @@ export const BoxNumberInfos = styled.div`
 
   span {
     font-size: 0.85rem;
+  }
+
+  @media (max-width: 768px){
+    padding: 0.5rem 0;
+
+    img{
+      width: 20px;
+    }
+
+    span{
+      font-size: 0.8rem;
+    }
   }
 `;
 
@@ -139,6 +160,7 @@ export const BoxButton = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: auto;
 
   .button-back {
     display: flex;

@@ -5,6 +5,10 @@ export const Container = styled.div`
   height: 100vh;
   font-family: "Quicksand", sans-serif;
   padding-left: 430px;
+
+  @media (max-width: 768px){
+    padding-left: 0;
+  }
 `;
 
 
