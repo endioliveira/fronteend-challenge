@@ -62,7 +62,7 @@ O objetivo é <b>fornecer uma interface simples</b> para poder pesquisar<b> perf
 <li>Instale as dependências do projeto:</li>
 <code>npm install</code>
 <br><br>
-<li>Inicie o servidor de desenvolvimento com o comando abaixo:</li>
+<li>Inicie o servidor de desenvolvimento:</li>
 <code>npm run dev</code>
 
 <h2>✨ Motivação de escolha das libs e framework</h2>
