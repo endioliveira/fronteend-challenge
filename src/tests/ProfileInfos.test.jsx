@@ -1,7 +1,7 @@
 import React from "react";
+import { render, screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
 import axios from "axios";
-import { render, screen } from "@testing-library/react";
 import { ProfileInfos } from "../components/ProfileInfos/index";
 
 jest.mock("axios");
