@@ -4,7 +4,7 @@
 <p>O projeto tem como objetivo construir uma aplicação usando ReactJS que permite buscar o perfil de usuários na API pública do GitHub e exibir seus dados em uma página de perfil. 
 <br>
 <br>
-A aplicação utiliza a <b>API do GitHub</b> para ter informações sobre os usuários, como nome de usuário, o nome, biografia, localização, número de seguidores, de quantas pessoas o usuário está seguindo e a quantidade de estrelas. A página de perfil mostra essas informações em um formato amigável e intuitivo para os usuários.
+A aplicação utiliza a <b>API do GitHub</b> para ter informações sobre os usuários, como nome de usuário, o nome, biografia, localização, número de seguidores, de quantas pessoas o usuário está seguindo e a quantidade de estrelas. 
 <br>
 <br>
 O objetivo é <b>fornecer uma interface simples</b> para poder pesquisar<b> perfis de desenvolvedores do GitHub</b>.
@@ -66,7 +66,7 @@ O objetivo é <b>fornecer uma interface simples</b> para poder pesquisar<b> perf
 <code>npm run dev</code>
 
 <h2>✨ Motivação de escolha das libs e framework</h2>
-Optei por utilizar o <b>React Vite</b> para facilitar o processo de desenvolvimento e construção da aplicação. O React é uma biblioteca popular e muito utilizada na comunidade de desenvolvedores, e o Vite oferece um ambiente de desenvolvimento rápido e moderno para construir aplicações web.
+Optei por utilizar o <b>React Vite</b> para facilitar o processo de desenvolvimento e construção da aplicação.
 <br>
 <br>
 Usei <b>React Router</b> para gerenciar a navegação entre as diferentes páginas da aplicação
@@ -86,7 +86,7 @@ Também usei o <b>Jest</b> para fazer testes da aplicação, garantindo a qualid
 
 🔹 <b>src/components/</b>: Nessa pasta tem todos os componentes utilizados na aplicação.
 
-🔹 <b>src/components/RepositoryInfos/</b>: Esse componente é responsável por exibir as informações dos repositórios do usuário do GitHub.
+🔹 <b>src/components/RepositoryInfos/</b>: Esse componente é responsável por mostrar as informações dos repositórios do usuário do GitHub.
 
 🔹 <b>src/components/ProfileInfos/</b>: Esse componente é responsável por exibir as informações de perfil do usuário do GitHub.
 
