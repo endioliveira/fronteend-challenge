@@ -34,7 +34,7 @@ O objetivo é <b>fornecer uma interface simples</b> para poder pesquisar<b> perf
 <p>Quando clica no botão, a aplicação faz uma chamada à <b>API do GitHub</b> e exibe as informações do usuário, como nome, nome de usuário, biografia, quantidade de seguidores, quantidade de pessoas que o usuário está seguindo, quantidade de estrelas e e algumas outras informações, como site pessoal, localidade, empresa e twitter. A página também tem um botão "Voltar" que leva o usuário de volta à página inicial (Home).</p>
 <p>E a página apresenta uma <b>seção de repositórios do usuário</b>, exibindo uma lista ordenada de seus repositórios com base na quantidade de estrelas, apresentando o nome do repositório como um link, um resumo do repositório, a quantidade de estrelas que ele tem e a data da última atualização.</p>
 
-<p>O site é <b>responsivo</b>, oferecendo uma <b>experiência consistente e de fácil utilização</b> tanto em desktops quanto em dispositivos móveis, como celulares e tablets.
+<p>O site é <b>responsivo</b>, oferecendo uma boa <b>experiência e de fácil utilização</b> tanto em desktops quanto em dispositivos móveis, como celulares e tablets.
 </p>
 
 <h2>💻Pré-requisitos</h2>
