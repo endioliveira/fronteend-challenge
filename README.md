@@ -1,7 +1,7 @@
 # Front End - Challenge
 
 <h2> 💻 Sobre o projeto</h2>
-<p>O projeto tem como objetivo construir uma aplicação usando ReactJS que permite buscar o perfil de usuários na API pública do GitHub e exibir seus dados em uma página de perfil. 
+<p>O projeto tem como objetivo construir uma aplicação usando ReactJS que permite buscar o perfil de usuários na API pública do GitHub e mostrar seus dados em uma página de perfil. 
 <br>
 <br>
 A aplicação utiliza a <b>API do GitHub</b> para ter informações sobre os usuários, como nome de usuário, o nome, biografia, localização, número de seguidores, de quantas pessoas o usuário está seguindo e a quantidade de estrelas. 
@@ -88,13 +88,13 @@ Também usei o <b>Jest</b> para fazer testes da aplicação, garantindo a qualid
 
 🔹 <b>src/components/RepositoryInfos/</b>: Esse componente é responsável por mostrar as informações dos repositórios do usuário do GitHub.
 
-🔹 <b>src/components/ProfileInfos/</b>: Esse componente é responsável por exibir as informações de perfil do usuário do GitHub.
+🔹 <b>src/components/ProfileInfos/</b>: Esse componente é responsável por mostrar as informações de perfil do usuário do GitHub.
 
 🔹 <b>src/pages/</b>: Nessa pasta temos as páginas da aplicação. Cada página é organizada em sua própria pasta.
 
 🔹 <b>src/pages/Home/</b>: Nessa página tem a tela inicial da aplicação, que permite buscar por usuários do GitHub.
 
-🔹 <b>src/pages/Profile/</b>: Nessa página mostra as infos de um usuário específico do GitHub e seus repositórios.
+🔹 <b>src/pages/Profile/</b>: Nessa página mostra as informações de um usuário específico do GitHub e seus repositórios.
 
 🔹<b>src/tests/</b>: Nessa pasta contém os testes para cada componente da aplicação.
 
