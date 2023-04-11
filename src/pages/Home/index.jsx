@@ -1,33 +1,31 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import { Container, Title, Box, Input, Button } from "./styles";
 import searchIcon from "../../assets/search.svg";
 import { useNavigate } from "react-router-dom";
 
-
 export function Home() {
-
-  const [ search, setSearch ] = useState("")
+  const [search, setSearch] = useState("");
   const navigate = useNavigate();
 
-const handleGetUser = () => {
-  navigate(`/profile/${search}`)
-}
+  const handleGetUser = () => {
+    navigate(`/profile/${search}`);
+  };
 
   return (
     <>
-    <Container>
+      <Container>
         <Title>Search Devs</Title>
         <Box>
-          <Input placeholder="Type the username here..." onChange={(e) => setSearch(e.target.value)}>
-          </Input>
+          <Input
+            placeholder="Type the username here..."
+            onChange={(e) => setSearch(e.target.value)}
+          ></Input>
           <Button onClick={handleGetUser}>
-            <img src={searchIcon} alt="imagem de uma lupa"/>
-            <span>
-              Buscar
-            </span>
-            </Button>
+            <img src={searchIcon} alt="Imagem de uma lupa" />
+            <span>Buscar</span>
+          </Button>
         </Box>
-    </Container>
+      </Container>
     </>
-  )
+  );
 }
