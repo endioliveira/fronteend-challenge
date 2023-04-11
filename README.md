@@ -72,7 +72,7 @@ Optei por utilizar o <b>React Vite</b> para facilitar o processo de desenvolvime
 Usei <b>React Router</b> para gerenciar a navegação entre as diferentes páginas da aplicação
 <br>
 <br>
-Usei <b>Styled Components</b> para a estilização dos componentes. O Styled Components nos permite criar estilos reutilizáveis e modularizados, o que facilita a manutenção do código e ajuda a garantir a consistência visual em toda a aplicação.
+Usei <b>Styled Components</b> para a estilização dos componentes. O Styled Components nos permite criar estilos reutilizáveis e modularizados.
 <br>
 <br>
 E para consumir a <b>API do GitHub</b>, utilizei o <b>Axios</b>, que simplifica as chamadas de API e permite lidar com erros de forma eficiente. Além disso, usei a biblioteca Moment.js para formatar a data de criação dos repositórios exibidos na aplicação.
